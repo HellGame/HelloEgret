@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="400" height="300" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group id="contentGroup" width="100%" height="100%">
+		<e:Button id="buttonDisplay" label="按钮" y="173" horizontalCenter="0"/>
+		<e:CheckBox label="复选框" y="125" horizontalCenter="0"/>
+		<e:Label id="labelDisplay" text="标签" y="58" textColor="0" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>
